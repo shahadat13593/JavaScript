@@ -72,3 +72,8 @@ console.log(x);
 
 // ! Comparison Operator
 console.log(ageShahadat > agePinky);
+console.log(agePinky >= 18);
+
+const isFullAge = agePinky >= 18;
+
+console.log(currentYear - 1991 > currentYear - 2019);
