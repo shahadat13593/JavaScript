@@ -245,3 +245,30 @@
 // if (favorite !== 23) {
 //   console.log("Why not 23?");
 // }
+
+// ! Logical Operator
+
+// const hasDiversLicense = true;
+// const hasGoodVision = true;
+
+// const hasDiversLicense = true;
+// const hasGoodVision = true;
+// console.log(hasDiversLicense && hasGoodVision);
+// console.log(hasDiversLicense || hasGoodVision);
+// console.log(!hasDiversLicense);
+
+// const shouldDrive = hasDiversLicense && hasGoodVision;
+// if (shouldDrive) {
+//   console.log("Able to drive!");
+// } else {
+//   console.log("Not able to drive!");
+// }
+
+// const isTried = true;
+// console.log(hasDiversLicense && hasGoodVision && isTried);
+
+// if (hasDiversLicense && hasGoodVision && !isTried) {
+//   console.log("Able to drive!");
+// } else {
+//   console.log("Not able to drive!");
+// }
