@@ -219,3 +219,29 @@
 // }
 
 //! Equality Operator == vs. ===
+
+// const age = "18";
+// if (age === 18) {
+//   console.log("You just become an adult! (strict)");
+// } else {
+// }
+
+// if (age == 18) {
+//   console.log("You just become an adult! (loose)");
+// } else {
+// }
+
+// const favorite = Number(prompt("What is your Favorite Number: "));
+// console.log(favorite);
+
+// if (favorite === 23) {
+//   console.log(`Cool! ${favorite} is amazing number!`);
+// } else if (favorite === 7) {
+//   console.log(`${favorite} is also amazing number!`);
+// } else {
+//   console.log(`Number is not 7 or 23!`);
+// }
+
+// if (favorite !== 23) {
+//   console.log("Why not 23?");
+// }
