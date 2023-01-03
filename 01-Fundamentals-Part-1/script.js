@@ -272,3 +272,81 @@
 // } else {
 //   console.log("Not able to drive!");
 // }
+
+//! Coding Challenge #3
+
+// const scoreDolphins_1 = 97;
+// const scoreDolphins_2 = 112;
+// const scoreDolphins_3 = 101;
+
+// const scoreKoalas_1 = 109;
+// const scoreKoalas_2 = 95;
+// const scoreKoalas_3 = 106;
+
+// const avgOfDolphins = (scoreDolphins_1 + scoreDolphins_2 + scoreDolphins_3) / 3;
+// const avgOfKoalas = (scoreKoalas_1 + scoreKoalas_2 + scoreKoalas_3) / 3;
+
+// console.log(avgOfDolphins, avgOfKoalas);
+
+// if (avgOfDolphins > avgOfKoalas && avgOfDolphins >= 100) {
+//   console.log("Dolphins win the game!");
+// } else if (avgOfKoalas > avgOfDolphins && avgOfKoalas >= 100) {
+//   console.log("Koalas win the game!");
+// } else if (
+//   avgOfDolphins === avgOfKoalas &&
+//   avgOfKoalas >= 100 &&
+//   avgOfDolphins >= 100
+// ) {
+//   console.log("Match is draw!");
+// } else {
+//   console.log("No team wins the trophy!");
+// }
+
+// ! The Switch Statement
+
+// const day = "saturday";
+
+// switch (day) {
+//   case "monday":
+//     console.log("Plan to do waste my all day!");
+//     console.log("Playing games for all day!");
+//     break;
+
+//   case "tuesday":
+//     console.log("Have to do coding!");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Have to do Programming!");
+//     break;
+
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoying the weekend!");
+//     break;
+
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// ! Ternary Operator
+
+// const age = 17;
+// age >= 18
+//   ? console.log("I like to drink wine!🍷")
+//   : console.log("I like to drink water!💧");
+
+// const drink = age >= 18 ? "wine 🍷" : "water 💧";
+
+// console.log(`I like to drink ${drink}`);
+
+// console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+
+// ! Coding Challenge #4
+
+// const bill = 430;
+
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+// console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value
+// ${bill + tip}`);
