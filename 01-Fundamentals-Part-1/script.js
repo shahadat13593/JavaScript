@@ -350,3 +350,38 @@
 
 // console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value
 // ${bill + tip}`);
+
+// //! fun
+// const maliha = prompt(`Choose one :
+// 1. kind
+// 2. friend
+// 3. care
+// 4. work`);
+
+// switch (maliha) {
+//   case "1":
+//     console.log("Thank you for being kind to me!");
+//     break;
+
+//   case "2":
+//     console.log(`I am so grateful that you are my friend.`);
+//     break;
+//   case "3":
+//     console.log(
+//       `You should take care of your-self first Maliha. Then you are allow to care about other!.`
+//     );
+//     break;
+//   case "4":
+//     console.log(
+//       "Do hard work insha-allah you will be a successful person one day!"
+//     );
+//     break;
+// }
+
+// const verbStatus = prompt(`What are you doing?`);
+// const gift = verbStatus == "working" ? "Hug" : "Get lost";
+// if (gift == "Hug") {
+//   console.log(`Come here babe. I wanna ${gift} you!`);
+// } else {
+//   console.log(`just ${gift}`);
+// }
