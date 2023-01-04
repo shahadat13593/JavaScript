@@ -66,8 +66,15 @@
 
 // ! Functions calls other Functions
 
-function fruitProcessor(apples, oranges) {
-  console.log(apples, oranges);
-  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-  return console.log(juice);
-}
+// const cutFruitPieces = function (fruit) {
+//   return fruit * 4;
+// };
+
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+//   const juice = `Juice with ${applePieces} apple pieces and ${orangePieces} orange pieces.`;
+//   return console.log(juice);
+// }
+
+// fruitProcessor(2, 3);
