@@ -139,9 +139,9 @@ const friends = ["michael", "Raiyan", "Shahadat"];
 // friends[2] = "Jay";
 // console.log(friends);
 
-const shahadat = ["Shahadat", "Hossain", 2023 - 2001, "student", friends];
+// const shahadat = ["Shahadat", "Hossain", 2023 - 2001, "student", friends];
 
-console.log(shahadat);
+// console.log(shahadat);
 
 // ! Exercise of Arrow
 // const clcAge = function (birthYear) {
