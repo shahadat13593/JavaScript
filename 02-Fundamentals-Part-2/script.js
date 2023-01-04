@@ -113,3 +113,47 @@
 // };
 
 // console.log(checkWinner(averageOfDolphins, averageOfKoalas));
+
+// ! Arrays
+
+// const friend1 = "michael";
+// const friend2 = "Raiyan";
+// const friend3 = "Shahadat";
+
+const friends = ["michael", "Raiyan", "Shahadat"];
+// console.log(friends);
+// console.log(friends[0]);
+// console.log(friends[1]);
+// console.log(friends[2]);
+
+// const year = new Array(1991, 1984, 2008, 2020);
+
+// console.log(friends[0]);
+// console.log(friends[1]);
+// console.log(friends[2]);
+
+// console.log(friends.length);
+
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = "Jay";
+// console.log(friends);
+
+const shahadat = ["Shahadat", "Hossain", 2023 - 2001, "student", friends];
+
+console.log(shahadat);
+
+// ! Exercise of Arrow
+// const clcAge = function (birthYear) {
+//   return 2023 - birthYear;
+// };
+
+// const years = [1998, 1967, 2002, 2010, 2017];
+
+// console.log(clcAge(years[0]));
+// console.log(clcAge(years[1]));
+// console.log(clcAge(years[years.length - 1]));
+
+// const ages = [clcAge(years[0]), clcAge(years[1]), years[years.length - 1]];
+
+// console.log(ages);
