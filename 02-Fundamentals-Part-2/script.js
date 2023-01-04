@@ -78,3 +78,20 @@
 // }
 
 // fruitProcessor(2, 3);
+
+// ! Reviewing Functions
+
+// const yearUntilRetirement = (firstName, birthYear) => {
+//   const age = 2037 - birthYear;
+//   const retirement = 65 - age;
+
+//   if (retirement > 0) {
+//     return `${firstName} you have ${retirement} years left for your retirement.`;
+//     // return retirement;
+//   } else {
+//     return `${firstName} has already Retired!`;
+//     // return -1;
+//   }
+// };
+// console.log(yearUntilRetirement("Shahadat", 1991));
+// console.log(yearUntilRetirement("Raiyan", 1950));
