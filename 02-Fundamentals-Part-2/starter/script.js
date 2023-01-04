@@ -95,3 +95,21 @@
 // };
 // console.log(yearUntilRetirement("Shahadat", 1991));
 // console.log(yearUntilRetirement("Raiyan", 1950));
+
+// ! Coding Challenge #1
+// const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+// const averageOfDolphins = calcAverage(85, 54, 41);
+// const averageOfKoalas = calcAverage(23, 34, 27);
+// console.log(averageOfDolphins, averageOfKoalas);
+
+// const checkWinner = function (averageOfDolphins, averageOfKoalas) {
+//   if (averageOfDolphins >= 2 * averageOfKoalas) {
+//     return `Dolphins win (${averageOfDolphins} vs. ${averageOfKoalas})`;
+//   } else if (averageOfKoalas >= 2 * averageOfDolphins) {
+//     return `Koalas win (${averageOfKoalas} vs. ${averageOfDolphins})`;
+//   } else {
+//     return `No team wins!`;
+//   }
+// };
+
+// console.log(checkWinner(averageOfDolphins, averageOfKoalas));
