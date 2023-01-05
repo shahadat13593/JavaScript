@@ -228,10 +228,41 @@
 
 // thinker();
 
-const currentYear = 2023;
-const clcAge = (birthYear) => currentYear - birthYear;
-const birthYear = prompt(`What is your Birth Year?`);
+//! Fun 2
 
-const bioCreatorOfPerson = function (firstName, lastName, day, hobby) {
-  const age = clcAge(birthYear);
-};
+// const currentYear = 2023;
+// const clcAge = (birthYear) => currentYear - birthYear;
+// const birthYear = prompt(`What is your Birth Year?`);
+// const age = clcAge(birthYear);
+// const bioCreatorOfPerson = function (firstName, lastName, job, day) {
+//   const initialBio = `My name is ${firstName} ${lastName}. I am ${age} years old. I am a ${job}.`;
+//   const days = () => {
+//     switch (day) {
+//       case "Monday":
+//         return `${initialBio} Today is ${day}.`;
+
+//       case "Tuesday":
+//         return `${initialBio} Today is ${day}.`;
+//       case "Thursday":
+//         return `${initialBio} Today is ${day}.`;
+//       case "Wednesday":
+//         return `${initialBio} Today is ${day}.`;
+//       case "Friday":
+//         return `${initialBio} Today is ${day}.`;
+//       case "Saturday":
+//         return `${initialBio} Today is ${day}.`;
+//       case "Sunday":
+//         return `${initialBio} Today is ${day}.`;
+//       default:
+//         return `${initialBio} Type a valid day!`;
+//     }
+//   };
+//   console.log(days());
+// };
+
+// if (age === 22) {
+//   const bio = ["Shahadat", "Hossain", "Programmer", "Monday"];
+//   bioCreatorOfPerson(bio[0], bio[1], bio[2], bio[3]);
+// } else {
+//   bioCreatorOfPerson("Maliha", "Samar", "Codder", "Sunday");
+// }
