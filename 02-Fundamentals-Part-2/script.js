@@ -266,3 +266,235 @@
 // } else {
 //   bioCreatorOfPerson("Maliha", "Samar", "Codder", "Sunday");
 // }
+
+// console.log(
+//   `My name is Shahadat Hossain. I am 22 years old. I am a Programmer. Today is Monday.`
+// );
+// ! Objects
+
+// const shahadat = {
+//   firstName: "Shahadat",
+//   lastName: "Hossain",
+//   age: 2023 - 2001,
+//   job: "Programmer",
+//   friends: ["Kamal", "Jamal", "Karim"],
+// };
+
+// console.log(shahadat);
+
+// ! Dot
+// console.log(shahadat.lastName);
+
+// ! Bracket Notation
+// console.log(shahadat["lastName"]);
+// const partOfLastName = "first";
+// console.log(shahadat[`${partOfLastName}Name`]);
+
+// const interestedIn = prompt(`What do you want to know about me?
+//  Choose between: firstName, lastName, age, job and friends`);
+
+// if (shahadat[interestedIn]) {
+//   console.log(shahadat[interestedIn]);
+// } else {
+//   console.log(`Choose a valid Property!`);
+// }
+
+// shahadat.location = "Bangladesh";
+// shahadat["email"] = "sahadat15-13593@diu.edu.bd";
+
+// console.log(shahadat);
+
+// ! Challenge
+// console.log(
+//   `${shahadat.firstName} has ${shahadat["friends"].length} friends, and his best friend is ${shahadat.friends[0]}`
+// );
+
+// ! Object Methods
+
+// const shahadat = {
+//   firstName: "Shahadat",
+//   lastName: "Hossain",
+//   birthYear: 2001,
+//   job: "Programmer",
+//   friends: ["Kamal", "Jamal", "Karim"],
+//   hasDriversLicense: true,
+//   // clcAge: function (birthYear) {
+//   //   return 2023 - birthYear;
+//   // },
+
+//   // clcAge: function () {
+//   //   // console.log(this);
+//   //   return 2023 - this.birthYear;
+//   // },
+
+//   clcAge: function () {
+//     this.age = 2023 - this.birthYear;
+//     return this.age;
+//   },
+
+//   getSummary: function () {
+//     return console.log(
+//       `${this.firstName} is a ${this.clcAge()}-year old ${
+//         this.job
+//       }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`
+//     );
+//   },
+// };
+
+// shahadat.clcAge();
+// console.log(shahadat.age);
+
+// // ! Challenge
+// shahadat.getSummary();
+
+// ! Coding Challenge #3
+
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.9,
+//   calcBMI: function () {
+//     this.BMIMark = this.mass / this.height ** 2;
+//     return this.BMIMark;
+//   },
+// };
+// const john = {
+//   fullName: "John Smith",
+//   mass: 99,
+//   height: 1.95,
+//   calcBMI: function () {
+//     this.BMIJohn = this.mass / this.height ** 2;
+//     return this.BMIJohn;
+//   },
+// };
+
+// mark.calcBMI();
+// john.calcBMI();
+
+// if (john.BMIJohn > mark.BMIMark) {
+//   console.log(
+//     `John's BMI (${john.BMIJohn}) is higher than Mark's (${mark.BMIMark}))`
+//   );
+// } else if (mark.BMIMark > john.BMIJohn) {
+//   console.log(
+//     ` Mark's BMI (${mark.BMIMark}) is higher than John's (${john.BMIJohn}))`
+//   );
+// }
+
+// ! The for Loops
+
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+// console.log(`Lifting weight repetition 1`);
+
+// for (let i = 1; i <= 60; i++) {
+//   console.log(`Lifting weight repetition ${i}`);
+// }
+
+// ! Looping arrays, breaking and continuing
+
+// const shahadat = [
+//   "Shahadat",
+//   "Hossain",
+//   2023 - 2001,
+//   "Programmer",
+//   ["Kamal", "Jamal", "Karim"],
+//   true,
+// ];
+
+// const types = [];
+// for (let i = 0; i <= shahadat.length - 1; i++) {
+//   // reading array
+//   console.log(shahadat[i], typeof shahadat[i]);
+
+//   // Filling array
+//   // types[i] = typeof shahadat[i];
+
+//   types.push(typeof shahadat[i]);
+// }
+
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+
+// const age = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   age.push(2037 - years[i]);
+// }
+
+// console.log(age);
+
+// ! Continue
+
+// console.log(shahadat);
+// console.log("=== Only String ===");
+
+// for (let i = 0; i <= shahadat.length - 1; i++) {
+//   if (typeof shahadat[i] !== "string") continue;
+//   console.log(shahadat[i], typeof shahadat[i]);
+// }
+
+// ! Break
+
+// console.log("=== Break with number ===");
+
+// for (let i = 0; i <= shahadat.length - 1; i++) {
+//   if (typeof shahadat[i] === "number") break;
+//   console.log(shahadat[i], typeof shahadat[i]);
+// }
+
+// ! Lopping Backwards and Loops in Loops
+
+// const shahadat = [
+//   "Shahadat",
+//   "Hossain",
+//   2023 - 2001,
+//   "Programmer",
+//   ["Kamal", "Jamal", "Karim"],
+//   true,
+// ];
+
+// for (let i = shahadat.length - 1; i >= 0; i--) {
+//   console.log(shahadat[i]);
+// }
+
+// for (let i = shahadat.length - 1; i >= 0; i--) {
+//   console.log(i, shahadat[i]);
+// }
+
+// ! Loop inside another loop
+
+// for (let exe = 1; exe <= 3; exe++) {
+//   console.log(`---------- string exercise ${exe} ------------`);
+
+//   for (let rep = 1; rep <= 5; rep++) {
+//     console.log(`Exercise ${exe}: Lifting weight repetition ${rep}🏋️‍♂️`);
+//   }
+// }
+
+// ! While Loop
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Lifting weight repetition ${i}`);
+// }
+
+// let i = 1;
+// while (i <= 5) {
+//   console.log(`Lifting weight repetition ${i}`);
+//   i++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6 + 1);
+
+// while (dice !== 6) {
+//   console.log(`You rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6 + 1);
+// }
