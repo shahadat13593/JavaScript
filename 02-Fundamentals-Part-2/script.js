@@ -120,7 +120,7 @@
 // const friend2 = "Raiyan";
 // const friend3 = "Shahadat";
 
-const friends = ["michael", "Raiyan", "Shahadat"];
+// const friends = ["michael", "Raiyan", "Shahadat"];
 // console.log(friends);
 // console.log(friends[0]);
 // console.log(friends[1]);
@@ -157,3 +157,81 @@ const friends = ["michael", "Raiyan", "Shahadat"];
 // const ages = [clcAge(years[0]), clcAge(years[1]), years[years.length - 1]];
 
 // console.log(ages);
+
+// !  basic Array methods
+
+// const friends = ["michael", "Raiyan", "Shahadat"];
+// ! Add ELEMENTS
+// const newLength = friends.push("Jay");
+// console.log(friends);
+
+// console.log(newLength);
+
+// friends.unshift("Maliha");
+// console.log(friends);
+
+// ! REMOVE ELEMENTS
+
+// const pooped = friends.pop();
+// console.log(pooped);
+// console.log(friends);
+
+// friends.shift();
+// console.log(friends);
+
+// console.log(friends.indexOf("Raiyan"));
+
+// console.log(friends.includes("Shahadat"));
+// console.log(friends.includes("shahadat"));
+
+// if (friends.includes("Raiyan")) {
+//   console.log(`Hi! ${friends[friends.indexOf("Raiyan")]}`);
+// }
+
+// !Coding Challenge #2
+
+// const calcTip = function (bill) {
+//   const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+//   return tip;
+// };
+
+// const bills = [125, 555, 44];
+
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+// const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// console.log(total);
+
+// ! Fun
+
+// const feeling = prompt(`What is your feeling now?`);
+// let emotion;
+// const emotions = () => {
+//   switch (feeling) {
+//     case "sad":
+//     case "angry":
+//       emotion =
+//         "convert your emotion in to modulation then you can do more hard ";
+//       break;
+
+//     case "good":
+//     case "fine":
+//     case "ok":
+//       emotion = "Keep working mate!";
+//       break;
+//   }
+//   return console.log(emotion);
+// };
+// const thinker = function () {
+//   return emotions();
+// };
+
+// thinker();
+
+const currentYear = 2023;
+const clcAge = (birthYear) => currentYear - birthYear;
+const birthYear = prompt(`What is your Birth Year?`);
+
+const bioCreatorOfPerson = function (firstName, lastName, day, hobby) {
+  const age = clcAge(birthYear);
+};
