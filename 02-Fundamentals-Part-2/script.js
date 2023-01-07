@@ -498,3 +498,43 @@
 //   console.log(`You rolled a ${dice}`);
 //   dice = Math.trunc(Math.random() * 6 + 1);
 // }
+
+// ! Coding Challenge #4
+
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tip = [];
+// const total = [];
+
+// const calcTip = function (bill) {
+//   const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+//   return tip;
+// };
+
+// for (let i = 0; i <= bills.length - 1; i++) {
+//   tip.push(calcTip(bills[i]));
+//   total.push(bills[i] + tip[i]);
+// }
+// for (let i = 0; i <= bills.length - 1; i++) {
+//   total.push(bills[i] + tip[i]);
+// }
+
+// console.log(`Bills: ${bills}`);
+// console.log(`Tips: ${tip}`);
+// console.log(`Totals: ${total}`);
+
+// const calcAverage = function (arr) {
+//   let sum = 0;
+//   for (let i = 0; i <= arr.length - 1; i++) {
+//     sum = sum + arr[i];
+//   }
+//   console.log(sum);
+
+// return sum;
+
+//   const totals = () => sum / arr.length;
+//   //   console.log(totals());
+//   return console.log(`Average of an array: ${totals()}`);
+// };
+
+// calcAverage(total);
+// calcAverage(tip);
